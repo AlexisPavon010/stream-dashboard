@@ -1,0 +1,17 @@
+/* scrollbar */
+@import 'simplebar-react/dist/simplebar.min.css';
+
+.video {
+  position: relative;
+}
+
+.video-preview {
+  width: 100%;
+}
+
+.video-imagen-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}

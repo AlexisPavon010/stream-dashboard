@@ -1,0 +1,18 @@
+.video {}
+
+.video__content {
+  position: relative;
+  aspect-ratio: 5/3;
+}
+
+.video__content_player {
+  width: 100%;
+
+}
+
+.video__content_overlay {
+  position: absolute;
+  z-index: 4;
+  left: 0;
+  top: 0;
+}
