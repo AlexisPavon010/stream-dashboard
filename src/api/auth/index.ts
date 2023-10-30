@@ -2,7 +2,7 @@ import instance from "..";
 
 
 export const Register = (payload) => {
-  return instance.post('/auth/login', payload)
+  return instance.post('/auth/register', payload)
 }
 
 export const Login = (payload) => {
